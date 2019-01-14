@@ -16,10 +16,10 @@ App allows to create, delete and read notes.
 
 `node app.js --help` to look at the available commands.
 
-`npm run add -t [title] -b [text]` to create a note.
+`node app.js add -t [title] -b [text]` to create a note.
 
-`npm run list` to show all notes.
+`node app.js list` to show all notes.
 
-`npm run read -t [title]` to read specific note.
+`node app.js read -t [title]` to read specific note.
 
-`npm run remove -t [title]` to delete specific note.
+`node app.js remove -t [title]` to delete specific note.
